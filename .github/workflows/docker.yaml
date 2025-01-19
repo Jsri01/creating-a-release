@@ -19,7 +19,7 @@ jobs:
 
     - name: build and push image
       run: |
-       docker build -t my-image:latest
+       docker build -t my-image:latest .
        docker push my-image:latest
        
   
